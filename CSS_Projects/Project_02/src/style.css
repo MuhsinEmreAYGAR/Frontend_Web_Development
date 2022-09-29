@@ -1,0 +1,129 @@
+#googleImg{
+    display: block;
+    margin: 3px auto;
+}
+
+.section1{
+    background-color: #EEEEEE;
+    width: 90%;
+    margin: 3px auto;
+    padding-bottom: 3px;
+}
+
+
+.section1>p{
+    width: fit-content;
+    height: fit-content;
+    margin: 10px auto 5px;
+    display: block;
+}
+
+.section1>.emptyBox{
+    background-color: #FFFFFF;
+    width: 24%;
+    height:20px;
+    margin: 0px auto;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+}
+
+.section1>.buttonBox{
+    background-color: #F0F0F0;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    width: fit-content;
+    height:25px;
+    padding: 2px;
+    display: inline-block;
+}
+.section1>.buttonBox>p{
+    margin: 0px;
+}
+
+.section2{
+    background-color: #EEEEEE;
+    width: 90%;
+    margin: 3px auto;
+    display: flex;
+    align-items: stretch;
+}
+.section2>.box1{
+    background-color: #7EE5DA;
+    margin-right: 2px;
+    width: 37%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section2>.box1>a,.section2>.box1>p{
+    margin: 0px;
+    padding: 2px;
+}
+
+.section2>.box2{
+   background-color: #70CCC2;
+   margin-right: 2px;
+   width: 23%;
+   display: flex;
+   flex-direction: column;
+   padding: 5px;
+   
+}
+.section2>.box2>a{
+    margin:0px auto;
+    font-size: 13px;
+}
+
+
+.section2>.box3{
+    background-color: #62B3AA;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 13px;   
+ }
+
+ .section2>.box3>.emptyBox{
+    background-color: #EEEEEE;
+    width: 30%;
+    padding: 0px;
+    margin: 0px auto;
+    font-size: 15px;
+ }
+
+ .section2>.box3>p{
+    margin:0px;
+}
+
+.section2>.box3>.bottomBox{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.section2>.box3>.bottomBox>.buttonBox{
+    background-color: #F0F0F0;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    width: fit-content;
+    padding:1px 4px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.footer{
+    width: 90%;
+    margin: 0px auto;
+}
+
+.footer>p{
+    width: fit-content;
+    margin: 10px auto;
+    font-size: 13px;
+}

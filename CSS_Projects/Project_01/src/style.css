@@ -1,0 +1,31 @@
+body{
+    background-image: url(../images/bg-photo.jpg);
+    font-family: 'Combo', cursive;
+}
+
+header,nav,section,article,h1,h2,p,a,ul,li{
+    width: fit-content;
+    height: fit-content;
+    margin: 10px auto;
+    font-weight: bolder;
+}
+
+.txt-red {
+    color: red;
+}
+.txt-purple {
+    color: purple;
+}
+.txt-yellow {
+    color: rgb(224, 183, 87);
+}
+
+nav>a{
+   margin:0px 20px;
+   color:purple;
+}
+
+li{
+    padding-right: 60px;
+    width: fit-content;
+}

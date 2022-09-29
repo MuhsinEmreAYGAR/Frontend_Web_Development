@@ -1,0 +1,111 @@
+header {
+    display: flex;
+    justify-content: end;
+}
+
+.headerPart {
+    margin: 0px 5px;
+    display: flex;
+    align-items: center;
+}
+
+.headerPart>a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-family: Arial , sans-serif;
+    font-weight: bold;
+}
+
+.headerPart>a:hover{
+    text-decoration: underline;
+}
+
+#googleApps{
+    margin-left:20px;
+    width:20px ;
+}
+
+#profile{
+    margin-left:10px;
+    width: 32px ;
+    border-radius: 100px;
+}
+
+/* Header - End */
+
+
+/* Main - Start */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#googleLogo{
+    display:flex;
+    margin: 100px auto 10px;
+    width:272px;
+}
+
+.search{
+    box-shadow: 4px 4px 10px 4px #f2f2f2;
+    width: 480px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#findIcon{
+    margin: 5px 10px;
+    width: 20px;
+    align-self: center;
+}
+
+#voiceLogo{
+    margin: 5px 10px;
+    width: 25px;
+}
+
+.buttons{
+    margin-top: 10px;
+    display: flex;
+    font-size: 14px;
+    color:  #5f6368;
+    font-family: Arial,sans-serif;  
+}
+
+#button1, #button2{
+    background-color: #f2f2f2;
+    border:#f2f2f2 1px;
+    border-width: thin;
+    box-shadow: 2px 2px 3px 1px #f2f2f2;
+    height: 36px;
+}
+
+#button1>p, #button2>p{
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px; 
+}
+/* Main - End */
+
+/* Footer - Start */
+footer{
+    background-color:  #f2f2f2;
+    position: fixed; 
+    width: 100%;
+    bottom: 0; 
+    display: flex;
+    justify-content: space-between;
+}
+
+footer>.list1 ,footer>.list2{
+    list-style-type: none;
+    display:flex;
+}
+
+footer>.list1>li,  footer>.list2>li{
+    margin: 10px 15px;
+}
+/* Footer - End */

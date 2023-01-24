@@ -1,0 +1,26 @@
+.bg-yellow{
+    background-color: rgb(255, 192, 23);
+}
+
+.border-bottom-dark{
+    border-bottom: 1px solid  rgba(41, 41, 41, 1);
+}
+
+.font-type-1{
+    font-size: 70px ;
+    color: rgba(8, 8, 8, 1);;
+    font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.font-type-2{
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.font-type-larger{
+    font-size: larger;
+}
+
+.font-type-smaller{
+    font-size: smaller;
+}
+

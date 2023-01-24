@@ -1,0 +1,52 @@
+body{
+    background-color: #F3F2EF;
+}
+
+nav, nav>div, article{
+    background-color: #FFFFFF;
+}
+
+.bg-color-1{
+    background-color: #FFFFFF;
+}
+
+::placeholder{
+    background-image: url(/assets/magnifying-glass-solid.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    text-align: center;
+}
+
+#sendPost::placeholder{
+    background-image: url(/assets/pen-to-square-regular.svg);
+    text-align: unset;
+    padding-left: 30px;
+}
+
+.border-right-dark{
+    border-right: dotted 2px black ;
+}
+
+.font-size-smaller{
+    font-size: smaller;
+}
+
+.font-size-larger{
+    font-size: larger;
+}
+
+.font-weight-bold{
+    font-weight: bolder;
+}
+
+.btn:hover{
+    background-color: #f1f1f1;
+}
+
+#otherActions {
+    line-height: 2em;
+}
+
+.bring-to-front{
+    z-index: 1; 
+}

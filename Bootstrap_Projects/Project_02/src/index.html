@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Instagram</title>
+</head>
+
+<body>
+
+    <div class="container ">
+        <!-- Navbar - Start -->
+        <nav class="navbar navbar-expand-md bg-light box-shadow position-sticky mt-3">
+            <div class="container-fluid">
+
+                <!-- Navbar - Brand -->
+                <div class="navbar-brand" style="height: 54px">
+                    <img src="../images/instagramLogo.png" height="100%">
+                </div>
+                <!-- Navbar - Brand -->
+
+                <!-- Search - Bar -->
+                <div>
+                    <form class="d-block" style="width: 100%;" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Ara" aria-label="Search">
+                    </form>
+                </div>
+                <!-- Search - Bar -->
+
+                <!-- Toggler - Button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Toggler - Button -->
+
+                <!-- Navbar - Items -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                <i class="fas fa-home font-size-item"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fab fa-facebook-messenger font-size-item"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="far fa-compass font-size-item"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="far fa-heart font-size-item"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img class="rounded-circle mb-1" height="25px" src="../images/profilePhoto.jpg">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Navbar - Items -->
+
+            </div>
+        </nav>
+        <!-- Navbar - End -->
+
+        <div class="row">
+            <main class="col-sm-8">
+                <!-- Stories - Start -->
+                <div class="card mt-4 box-shadow" id="stories">
+                    <div class="card-body">
+                        <ul class="list-inline d-flex flex-wrap justify-content-between" style="margin: 0px;">
+                            <li class="list-inline-item text-center"><img
+                                    src="https://picsum.photos/id/237/300/300"><br> Kodluyoruz</li>
+                            <li class="list-inline-item text-center"><img
+                                    src="https://picsum.photos/id/239/300/300"><br> FurkanTolga</li>
+                            <li class="list-inline-item text-center"><img
+                                    src="https://picsum.photos/id/241/300/300"><br> HarunKemal</li>
+                            <li class="list-inline-item text-center"><img
+                                    src="https://picsum.photos/id/243/300/300"><br> hakanyalcin</li>
+                            <li class="list-inline-item text-center"><img
+                                    src="https://picsum.photos/id/251/300/300"><br> ozgeacik</li>
+                            <li class="list-inline-item text-center"><img
+                                    src="https://picsum.photos/id/247/300/300"><br> kablosuzkedi</li>
+                            <li class="list-inline-item text-center"><img
+                                    src="https://picsum.photos/id/249/300/300"><br> gulcanyayla</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Stories - End -->
+
+                <!-- Posts - Start -->
+                <section>
+                    <article class="card mt-5 box-shadow">
+                        <div class="card-header">
+                            <img class="rounded-circle me-3" width="50px" src="../images/profilePhoto.jpg">
+                            <strong>MuhsinEmreAYGAR</strong>
+                            <a href="#" class="text-dark">
+                                <i class="fa-solid fa-ellipsis fa-xl float-end mt-4"></i>
+                            </a>
+                        </div>
+
+                        <div class="card-body">
+                            <img src="https://picsum.photos/id/15/600/300" class="card-img-top">
+
+                            <ul class="list-inline mt-3">
+                                <li class="list-inline-item">
+                                    <a href="#" class="text-dark">
+                                        <i class="fa-regular fa-heart fa-xl"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" class="text-dark">
+                                        <i class="fa-regular fa-comment fa-xl"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" class="text-dark">
+                                        <i class="fa-regular fa-paper-plane fa-xl"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item float-end">
+                                    <a href="#" class="text-dark">
+                                        <i class="fa-regular fa-bookmark fa-xl"></i>
+                                    </a>
+                                </li>
+                            </ul>
+
+                            <ul class="list-group list-group-flush fs-xs">
+                                <li class="list-group-item px-0 py-1 border-bottom-0">
+                                    <img class="rounded-circle me-1" width="30px"
+                                        src="https://picsum.photos/id/125/300/300">
+                                    <strong>furkantolgayuce</strong> ve <strong>42 diğer kişi</strong> beğendi
+                                </li>
+                                <li class="list-group-item px-0 py-1 border-bottom-0">
+                                    <strong>cengizmataraci</strong> Burası Rize! Harika bir cennet!
+                                </li>
+                                <li class="list-group-item px-0 py-0 border-bottom-0">
+                                    <a class="text-decoration-none text-muted" href="#">15 yorumun tümünü gör</a>
+                                </li>
+                                <li class="list-group-item px-0 py-1 border-bottom-0">
+                                    <strong>furkantolgayuce</strong> Abi çok güzelmiş yaa! Bir gün götürürsün artık bizi
+                                    de:)
+                                </li>
+                                <li class="list-group-item px-0 py-1 border-bottom-0">
+                                    <strong>elonrmuskk</strong> That's wonderful view bro! I always want to travel
+                                    Rize...
+                                </li>
+                                <li class="list-group-item px-0 py-0 border-bottom-0">
+                                    <a class="text-decoration-none text-muted" href="#">10 saat önce</a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <div class="input-group p-2">
+                            <input type="text" class="form-control border-0" placeholder="Yorum ekle...">
+                            <button type="button" class="btn btn-outline-info border-0">Paylaş</button>
+                        </div>
+
+                    </article>
+
+                    <article class="card my-5 box-shadow">
+                        <div class="card-header">
+                            <img class="rounded-circle me-3" width="50px" src="https://picsum.photos/id/130/300/300">
+                            <strong>furkantolgayuce</strong>
+                            <a href="#" class="text-dark">
+                                <i class="fa-solid fa-ellipsis fa-xl float-end mt-4"></i>
+                            </a>
+                        </div>
+
+                        <div class="card-body">
+                            <img src="https://picsum.photos/id/20/600/300" class="card-img-top">
+
+                            <ul class="list-inline mt-3">
+                                <li class="list-inline-item">
+                                    <a href="#" class="text-dark">
+                                        <i class="fa-regular fa-heart fa-xl"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" class="text-dark">
+                                        <i class="fa-regular fa-comment fa-xl"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" class="text-dark">
+                                        <i class="fa-regular fa-paper-plane fa-xl"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item float-end">
+                                    <a href="#" class="text-dark">
+                                        <i class="fa-regular fa-bookmark fa-xl"></i>
+                                    </a>
+                                </li>
+                            </ul>
+
+                            <ul class="list-group list-group-flush fs-xs">
+                                <li class="list-group-item px-0 py-1 border-bottom-0">
+                                    <img class="rounded-circle me-1" width="30px"
+                                        src="https://picsum.photos/id/135/300/300">
+                                    <strong>furkantolgayuce</strong> ve <strong>42 diğer kişi</strong> beğendi
+                                </li>
+                                <li class="list-group-item px-0 py-1 border-bottom-0">
+                                    <strong>cengizmataraci</strong> Burası Rize! Harika bir cennet!
+                                </li>
+                                <li class="list-group-item px-0 py-0 border-bottom-0">
+                                    <a class="text-decoration-none text-muted" href="#">15 yorumun tümünü gör</a>
+                                </li>
+                                <li class="list-group-item px-0 py-1 border-bottom-0">
+                                    <strong>furkantolgayuce</strong> Abi çok güzelmiş yaa! Bir gün götürürsün artık bizi
+                                    de:)
+                                </li>
+                                <li class="list-group-item px-0 py-1 border-bottom-0">
+                                    <strong>elonrmuskk</strong> That's wonderful view bro! I always want to travel
+                                    Rize...
+                                </li>
+                                <li class="list-group-item px-0 py-0 border-bottom-0">
+                                    <a class="text-decoration-none text-muted" href="#">10 saat önce</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="input-group p-2">
+                            <input type="text" class="form-control border-0" placeholder="Yorum ekle...">
+                            <button type="button" class="btn btn-outline-info border-0">Paylaş</button>
+                        </div>
+
+                    </article>
+
+                    <article class="card mb-5 box-shadow">
+                        <div class="card-header">
+                            <img class="rounded-circle me-3" width="50px" src="https://picsum.photos/id/145/300/300">
+                            <strong>cengizmataraci</strong>
+                            <a href="#" class="text-dark">
+                                <i class="fa-solid fa-ellipsis fa-xl float-end mt-4"></i>
+                            </a>
+                        </div>
+
+                        <div class="card-body">
+                            <img src="https://picsum.photos/id/40/600/300" class="card-img-top">
+
+                            <ul class="list-inline mt-3">
+                                <li class="list-inline-item">
+                                    <a href="#" class="text-dark">
+                                        <i class="fa-regular fa-heart fa-xl"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" class="text-dark">
+                                        <i class="fa-regular fa-comment fa-xl"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" class="text-dark">
+                                        <i class="fa-regular fa-paper-plane fa-xl"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item float-end">
+                                    <a href="#" class="text-dark">
+                                        <i class="fa-regular fa-bookmark fa-xl"></i>
+                                    </a>
+                                </li>
+                            </ul>
+
+                            <ul class="list-group list-group-flush fs-xs">
+                                <li class="list-group-item px-0 py-1 border-bottom-0">
+                                    <img class="rounded-circle me-1" width="30px"
+                                        src="https://picsum.photos/id/155/300/300">
+                                    <strong>furkantolgayuce</strong> ve <strong>75 diğer kişi</strong> beğendi
+                                </li>
+                                <li class="list-group-item px-0 py-1 border-bottom-0">
+                                    <strong>cengizmataraci</strong> Burası Rize! Harika bir cennet!
+                                </li>
+                                <li class="list-group-item px-0 py-0 border-bottom-0">
+                                    <a class="text-decoration-none text-muted" href="#">85 yorumun tümünü gör</a>
+                                </li>
+                                <li class="list-group-item px-0 py-1 border-bottom-0">
+                                    <strong>furkantolgayuce</strong> Abi çok güzelmiş yaa! Bir gün götürürsün artık bizi
+                                    de:)
+                                </li>
+                                <li class="list-group-item px-0 py-1 border-bottom-0">
+                                    <strong>elonrmuskk</strong> That's wonderful view bro! I always want to travel
+                                    Rize...
+                                </li>
+                                <li class="list-group-item px-0 py-0 border-bottom-0">
+                                    <a class="text-decoration-none text-muted" href="#">10 saat önce</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="input-group p-2">
+                            <input type="text" class="form-control border-0" placeholder="Yorum ekle...">
+                            <button type="button" class="btn btn-outline-info border-0">Paylaş</button>
+                        </div>
+
+                    </article>
+                </section>
+                <!-- Posts - End -->
+
+            </main>
+
+            <div class="col-sm-4 position-relative">
+                <aside class="position-sticky" id="recommendation">
+                
+                <!-- Recomendation - Start -->
+                <div class="card mt-4 box-shadow">
+                    <div class="card-body">
+                        <img class="rounded-circle me-3" width="55px" src="../images/profilePhoto.jpg">
+                        <strong>MuhsinEmreAYGAR</strong>
+                        <ul class="list-group list-group-flush mt-3">
+                            <li class="list-group-item text-muted">
+                                Senin için Öneriler
+                                <a class="text-decoration-none text-dark float-end" href="#">
+                                    <strong>Tümünü gör</strong>
+                                </a>
+                            </li>
+                            <li class="list-group-item fs-xs">
+                                <img class="rounded-circle me-3" width="40px" src="https://picsum.photos/id/5/200/200">
+                                <strong>KablosuzBeyin</strong>
+                                <a class="text-decoration-none text-info" href="#">
+                                    <strong class="float-end mt-2">Takip et</strong>
+                                </a>
+                            </li>
+                            <li class="list-group-item fs-xs">
+                                <img class="rounded-circle me-3" width="40px" src="https://picsum.photos/id/10/200/200">
+                                <strong>codecraftcom</strong>
+                                <a class="text-decoration-none text-info" href="#">
+                                    <strong class="float-end mt-2">Takip et</strong>
+                                </a>
+                            </li>
+                            <li class="list-group-item fs-xs">
+                                <img class="rounded-circle me-3" width="40px" src="https://picsum.photos/id/15/200/200">
+                                <strong>navlungotr</strong>
+                                <a class="text-decoration-none text-info" href="#">
+                                    <strong class="float-end mt-2">Takip et</strong>
+                                </a>
+                            </li>
+                            <li class="list-group-item fs-xs">
+                                <img class="rounded-circle me-3" width="40px" src="https://picsum.photos/id/20/200/200">
+                                <strong>podfresco</strong>
+                                <a class="text-decoration-none text-info" href="#">
+                                    <strong class="float-end mt-2">Takip et</strong>
+                                </a>
+                            </li>
+                            <li class="list-group-item fs-xs">
+                                <img class="rounded-circle me-3" width="40px" src="https://picsum.photos/id/25/200/200">
+                                <strong>Kodluyoruz Junior</strong>
+                                <a class="text-decoration-none text-info" href="#">
+                                    <strong class="float-end mt-2">Takip et</strong>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Recomendation - End -->
+
+                <!-- Other - Options -->
+                <ul class="list-inline mt-3 text-muted fs-xs">
+                    <li class="list-inline-item me-3">Hakkında</li>
+                    <li class="list-inline-item me-3">Yardım</li>
+                    <li class="list-inline-item me-3">Basın </li>
+                    <li class="list-inline-item me-3">API</li>
+                    <li class="list-inline-item me-3">İş Fırsatları</li>
+                    <li class="list-inline-item me-3">Gizlilik</li>
+                    <li class="list-inline-item me-3">Koşullar</li>
+                    <li class="list-inline-item me-3">Konumlar</li>
+                    <li class="list-inline-item me-3">Başlıca Hesaplar</li>
+                    <li class="list-inline-item me-3">Konu Etiketleri</li>
+                    <br><br>
+                    ©2022 Instagram FROM MEA
+                </ul>
+                </aside>
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js">
+    </script>
+</body>
+</html>

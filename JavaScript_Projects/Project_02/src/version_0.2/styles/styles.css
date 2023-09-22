@@ -1,0 +1,144 @@
+/* GENERAL SETTINGS STARTS */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* GENERAL SETTINGS ENDS */
+
+/* HEADER PART STARTS */
+/* INCLUDES LOGO, TITLE, AND FORM ELEMENTS */
+header {
+  background-color: #cd8818;
+}
+
+header img {
+  background-color: aliceblue;
+}
+
+header h1 {
+  color: aliceblue;
+}
+
+input[type="text"],
+input[type="submit"] {
+  outline: none;
+  border: none;
+}
+
+header form input[type="text"]::placeholder {
+  color: #cd8818;
+}
+
+header form input[type="text"]:focus {
+  outline: none;
+  box-shadow: -5px 10px 10px rgb(171, 122, 37);
+  transition: all .5s;
+}
+
+header form input[type="submit"] {
+  color: #976411fe;
+  background-color: white;
+  border-left: 2px solid rgb(205, 136, 24);
+  font-weight: 600;
+}
+
+header form input[type="submit"]:hover {
+  color: aliceblue;
+  background-color: #cd8818;
+  outline: 1px solid aliceblue;
+  box-shadow: 10px 10px 10px rgb(171, 122, 37);
+  transition: all .5s;
+}
+
+header form input[type="submit"]:active {
+  background-color: rgb(205, 136, 24);
+  color: white;
+  transition: ease-in-out .1ms;
+}
+
+/* INCLUDES LOGO, TITLE, AND FORM ELEMENTS */
+/* HEADER PART ENDS */
+
+
+/* MAIN PART STARTS */
+/* INCLUDES TASK LIST, AND TASK LISTS ELEMENTS */
+main {
+  background-color: #cd8818;
+}
+
+main ul li:nth-child(odd) {
+  background-color: hsl(37, 79%, 75%);
+}
+
+main ul li:nth-child(even) {
+  background-color: hsl(37, 79%, 85%);
+}
+
+main ul li:nth-child(odd):hover,
+main ul li:nth-child(even):hover {
+  background-color: hsl(37, 79%, 95%);
+}
+
+main ul li {
+  padding: 10px;
+  vertical-align: middle;
+}
+
+main ul li>i:first-child {
+  display: none;
+  float: left;
+  padding: 0px 15px 0px 10px;
+}
+main ul li>i:first-child::before {
+  color: rgb(73, 0, 52);
+}
+
+main ul li>i:last-child {
+  color: #976411fe;
+  padding: 0px 5px 10px 10px;
+  float: right;
+  font-size: 24px;
+}
+
+main ul li i:last-child:hover {
+  cursor: pointer;
+  transform: scale(1.3);
+  color: red;
+  transition: all .5s;
+}
+
+.done-task {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
+
+/* INCLUDES TASK LIST, AND TASK LISTS ELEMENTS */
+/* MAIN PART ENDS */
+
+
+/* RESPOSIVE FONT SIZE */
+
+/* X-Small <576px */
+@media screen and (min-width:0px) {
+  .site-logo {
+    width: 250px;
+  }
+}
+
+/* Medium	md	≥768px */
+@media screen and (min-width:768px) {
+  .site-logo {
+    width: 400px;
+  }
+}
+
+/* Large	lg	≥992px */
+@media screen and (min-width:992px) {
+  .site-logo {
+    width: 500px;
+  }
+}
